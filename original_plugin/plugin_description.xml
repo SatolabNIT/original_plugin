@@ -1,0 +1,41 @@
+<library path="lib/liboriginal_plugin">
+  <class name="original_plugin/testpanel" type="testpanel" base_class_type="rviz::Panel">
+    <description>TestPanel</description>
+  </class>
+
+  <class name="original_plugin/mypanel1" type="mypanel1" base_class_type="rviz::Panel">
+    <description>mypanel_1</description>
+  </class>
+
+  <class name="original_plugin/mypanel2" type="mypanel2" base_class_type="rviz::Panel">
+    <description>mypanel_2</description>
+  </class>
+
+  <class name="original_plugin/mypanel3" type="original_plugin::mypanel3" base_class_type="rviz::Tool">
+    <description>mypanel_3 roskouza102</description>
+  </class>
+
+  <class name="original_plugin/mypanel4" type="original_plugin::mypanel4" base_class_type="rviz::Display">
+    <description>roskouza111</description>
+  </class>
+
+  <class name="original_plugin/mypanel5" type="mypanel5" base_class_type="rviz::Panel">
+    <description>mypanel2_copy</description>
+  </class>
+
+  <class name="original_plugin/ros118" type="original_plugin::ros118" base_class_type="rviz::Display">
+    <description>roskouza111</description>
+  </class>
+
+  <class name="original_plugin/emergency_rviz" type="emergency_rviz" base_class_type="rviz::Panel">
+    <description>imax emergency button</description>
+  </class>
+
+  <class name="original_plugin/km_gui" type="km_gui" base_class_type="rviz::Panel">
+    <description>km_gui</description>
+  </class>
+
+  <class name="original_plugin/km_readiness" type="km_readiness" base_class_type="rviz::Panel">
+    <description>km_readiness</description>
+  </class>
+</library>
